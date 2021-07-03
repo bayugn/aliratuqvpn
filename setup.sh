@@ -65,7 +65,6 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://raw.githubusercontent.com/andrasurya/aliratuqvpn/main/set.sh"
 history -c
 echo "1.2" > /home/ver
 clear
