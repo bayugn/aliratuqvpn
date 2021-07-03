@@ -16,9 +16,8 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
-echo "Please Contact Lonte"
-echo "Gas open VCS"
-echo "Gas open BO"
+echo "Please Contact Admin"
+echo "Telegram t.me/aliratuqvpn"
 rm -f setup.sh
 exit 0
 fi
@@ -66,7 +65,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-
+wget -O /etc/set.sh "https://raw.githubusercontent.com/andrasurya/aliratuqvpn/main/set.sh"
 history -c
 echo "1.2" > /home/ver
 clear
