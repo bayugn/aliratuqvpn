@@ -217,7 +217,7 @@ wget -q -O /usr/local/bin/cdn https://raw.githubusercontent.com/andrasurya/alira
 chmod +x /usr/local/bin/cdn
 
 #OpenVPN
-wgethttps://raw.githubusercontent.com/andrasurya/aliratuqvpn/main/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
+wget https://raw.githubusercontent.com/andrasurya/aliratuqvpn/main/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
 apt -y install fail2ban
