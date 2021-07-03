@@ -21,7 +21,7 @@ port 587
 auth on
 user pradiasangindraswari@gmail.com
 from pradiasangindraswari@gmail.com
-ybkehwuifdgvgiiq
+password ybkehwuifdgvgiiq
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
