@@ -64,8 +64,8 @@ echo -e   "  ║ 22\e[1;33m)\e[m  Install BBR"
 echo -e   "  ║ 23\e[1;33m]\e[m  Add ID Cloudflare"
 echo -e   "  ║ 24\e[1;33m)\e[m  Cloudflare Add-Ons"
 echo -e   "  ║ 25\e[1;33m)\e[m  Pointing BUG"
-echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╝\e[m" | lolcat
-echo -e   "   ║ x)   Exit                                                                   ║\e[m" | lolcat
+echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
+echo -e   "  ║ x)   Exit                                                 ║\e[m" | lolcat
 echo -e   "  \e[1;32m╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e   ""
 read -p "     Select From Options [1-8 or x] :  " menu
